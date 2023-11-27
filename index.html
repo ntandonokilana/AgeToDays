@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgeToDays</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            border: 2px solid #06a499; 
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            color: #06a499;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #37cbc1;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #06a499;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Age To Days</h1>
+        <label for="age">Age</label>
+        <input type="text" id="age"> <br><br>
+        <label for="days">Days</label>
+        <input type="text" id="days"> <br><br>
+        <button onclick="convertAgeToDays()">Convert</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
